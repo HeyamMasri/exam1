@@ -1,0 +1,55 @@
+body{
+    background: gray !important;
+}
+
+hr{
+    height: 5px !important;
+}
+.container{
+    height: fit-content;
+}
+
+#searchInput{
+   width: 250px;
+
+    transition: width 0.3s ease-in-out !important;
+}
+
+#searchInput:focus{
+    width: 100% !important;
+}
+
+.topContainer:hover{
+    transform: scale(1.03);
+
+}
+
+.second:hover{
+    transform: scale(1.03);
+}
+ 
+.topContainer{
+    box-shadow: 5px 5px 15px 5px rgba(30, 30, 68, 0.75);
+}
+
+.second{
+    box-shadow: 5px 5px 15px 5px rgba(30, 30, 68, 0.75);
+}
+
+.texts:hover p{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.general-item:hover,.fruit-item:hover,.legume-item:hover{
+    transform: scale(1.1);
+}
+
+.highlight {
+    background-color: red !important;
+}
+
+.fade-out {
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
